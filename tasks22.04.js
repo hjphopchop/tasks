@@ -21,10 +21,10 @@ for (i =0; i<=100; i++)
     }
 } */
 /* С помощью цикла найдите сумму чисел от 1 до 100. */
-let i,
+/* let i,
 sum=0;
 for (i = 1; i <= 100; i++)
 {
     sum = sum + i;
 }
-document.write(sum);
+document.write(sum); */
