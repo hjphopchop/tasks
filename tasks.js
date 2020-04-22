@@ -106,18 +106,3 @@ num--;
 alert(num); */
 
 
-function ask(question, yesS, nOo) {
-    if (confirm(question)) yesS()
-    else nOo();
-  }
-  
-  function showOk() {
-    alert( "Вы согласны." );
-  }
-  
-  function showCancel() {
-    alert( "Вы отменили выполнение." );
-  }
-  
-  // использование: функции showOk, showCancel передаются в качестве аргументов ask
-  ask("Вы согласны?", showOk, showCancel);
